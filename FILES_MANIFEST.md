@@ -1,0 +1,52 @@
+# Все файлы сайта отдельно
+
+Сохраните структуру папок при загрузке на GitHub Pages.
+
+- `.nojekyll` — Файлы сайта, 0 Б
+- `404.html` — Файлы сайта, 615 Б
+- `README.md` — Файлы сайта, 2.9 КБ
+- `appeal.html` — Файлы сайта, 7.0 КБ
+- `archive.html` — Файлы сайта, 6.8 КБ
+- `assets/css/style.css` — Стили, 8.4 КБ
+- `assets/docs/00_emblem_fsb_bw.png` — Документы, 20 КБ
+- `assets/docs/00_registry_ru_fsb.docx` — Документы DOCX, 58 КБ
+- `assets/docs/01_blank_ru_fsb.docx` — Документы DOCX, 56 КБ
+- `assets/docs/02_order_ru.docx` — Документы DOCX, 56 КБ
+- `assets/docs/03_directive_ru.docx` — Документы DOCX, 56 КБ
+- `assets/docs/04_rapport.docx` — Документы DOCX, 56 КБ
+- `assets/docs/05_service_memo.docx` — Документы DOCX, 56 КБ
+- `assets/docs/06_request_materials.docx` — Документы DOCX, 56 КБ
+- `assets/docs/07_response_to_request.docx` — Документы DOCX, 56 КБ
+- `assets/docs/08_internal_check_act.docx` — Документы DOCX, 56 КБ
+- `assets/docs/09_employee_explanation.docx` — Документы DOCX, 56 КБ
+- `assets/docs/10_service_conversation_protocol.docx` — Документы DOCX, 56 КБ
+- `assets/docs/11_usb_case_card.docx` — Документы DOCX, 57 КБ
+- `assets/docs/12_service_check_conclusion.docx` — Документы DOCX, 56 КБ
+- `assets/docs/13_violation_remedy_submission.docx` — Документы DOCX, 56 КБ
+- `assets/docs/14_applicant_notice.docx` — Документы DOCX, 56 КБ
+- `assets/docs/15_work_plan.docx` — Документы DOCX, 57 КБ
+- `assets/docs/16_weekly_report.docx` — Документы DOCX, 57 КБ
+- `assets/docs/17_monthly_analytics.docx` — Документы DOCX, 56 КБ
+- `assets/docs/18_confidentiality_obligation.docx` — Документы DOCX, 57 КБ
+- `assets/docs/19_access_approval_sheet.docx` — Документы DOCX, 57 КБ
+- `assets/docs/20_candidate_form.docx` — Документы DOCX, 57 КБ
+- `assets/docs/21_internship_attestation.docx` — Документы DOCX, 57 КБ
+- `assets/docs/22_appeals_log.xlsx` — Журналы XLSX, 26 КБ
+- `assets/docs/23_orders_directives_log.xlsx` — Журналы XLSX, 26 КБ
+- `assets/docs/24_service_checks_log.xlsx` — Журналы XLSX, 26 КБ
+- `assets/docs/25_personal_reception_log.xlsx` — Журналы XLSX, 26 КБ
+- `assets/docs/26_access_matrix.xlsx` — Журналы XLSX, 26 КБ
+- `assets/docs/27_document_flow_instruction.docx` — Документы DOCX, 57 КБ
+- `assets/docs/28_employee_memo.docx` — Документы DOCX, 57 КБ
+- `assets/docs/29_regulation_usb_ru_fsb_lo_spb.docx` — Документы DOCX, 48 КБ
+- `assets/docs/29_regulation_usb_ru_fsb_lo_spb.md` — Документы MD, 33 КБ
+- `assets/docs/readme_docs.md` — Документы MD, 2.2 КБ
+- `assets/docs/regulation_usb_ru_fsb_lo_spb.docx` — Документы DOCX, 48 КБ
+- `assets/img/emblem.png` — Изображения, 20 КБ
+- `assets/js/app.js` — Скрипты, 9.8 КБ
+- `data/documents.json` — Данные сайта, 9.4 КБ
+- `data/regulation.md` — Данные сайта, 33 КБ
+- `documents.html` — Файлы сайта, 3.3 КБ
+- `index.html` — Файлы сайта, 6.9 КБ
+- `regulation.html` — Файлы сайта, 37 КБ
+- `workflow.html` — Файлы сайта, 6.6 КБ
