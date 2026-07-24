@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>УСБ | Рабочая панель</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page">
+  <header class="official-head">
+    <div class="doc-number">№ 002–РП–усб</div>
+    <div class="org-block">
+      <img src="assets/img/emblem.png" alt="Эмблема">
+      <div class="org-title">Федеральная<br>служба безопасности<br>Российской Федерации<br>(ФСБ России)</div>
+      <div class="org-subtitle">Управление<br>по Ленинградской области<br>и по городу Санкт-Петербург</div>
+      <div class="org-address">191000, г. Санкт-Петербург, адрес: __________________</div>
+      <div class="org-dept">Управление собственной безопасности</div>
+    </div>
+  </header>
+  <nav class="top-nav">
+    <a href="index.html">Главная</a>
+    <a href="workflow.html">Рабочая панель</a>
+    <a href="documents.html">Документы</a>
+    <a href="appeal.html">Подать обращение</a>
+    <a href="regulation.html">Положение</a>
+    <a href="archive.html">Архив и учет</a>
+  </nav>
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Рабочая панель УСБ</h1>
+        <p>Оперативная страница для инспектора: цикл дела, статусы, категории риска, чек-листы и быстрый генератор номера.</p>
+        <div class="badges">
+          <span class="badge">Регистрация</span>
+          <span class="badge">Проверка</span>
+          <span class="badge">Заключение</span>
+          <span class="badge">Контроль</span>
+        </div>
+      </div>
+      <aside class="status-card">
+        <h2>Следующий номер</h2>
+        <div class="kpi"><b id="quickCaseNumber">УСБ–26–0001</b><span>локальный счетчик в браузере</span></div>
+        <p><button class="btn primary" id="quickNextBtn" type="button">Выдать следующий</button></p>
+      </aside>
+    </section>
+
+    <section class="panel gray">
+      <h2>Цикл обработки обращения</h2>
+      <div class="steps">
+        <div class="step"><div><h3>Прием</h3><p>Поступление обращения через форму, канал, личный прием или служебную записку.</p></div></div>
+        <div class="step"><div><h3>Регистрация до 24 часов</h3><p>Присвоение номера, запись в журнал, проверка полноты данных.</p></div></div>
+        <div class="step"><div><h3>Категорирование до 48 часов</h3><p>Определение риска: А – критическая, B – значимая, C – стандартная.</p></div></div>
+        <div class="step"><div><h3>Назначение исполнителя</h3><p>Проверка конфликта интересов, назначение инспектора и срока.</p></div></div>
+        <div class="step"><div><h3>Проверка 5–14 дней</h3><p>Сбор объяснений и материалов, фиксация действий в карточке дела.</p></div></div>
+        <div class="step"><div><h3>Заключение и решение</h3><p>Вывод, меры реагирования, уведомление в допустимом объеме.</p></div></div>
+        <div class="step"><div><h3>Контроль и архив</h3><p>Проверка исполнения решения, закрытие и передача в архив.</p></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Категории риска</h2>
+      <div class="table-wrap">
+        <table class="site-table">
+          <thead><tr><th>Категория</th><th>Содержание</th><th>Реакция</th></tr></thead>
+          <tbody>
+            <tr><td><b>А – критическая</b></td><td>Коррупционный риск, утечка закрытых сведений, грубое превышение полномочий, давление на заявителя.</td><td>Немедленный доклад начальнику УСБ, ограниченный состав проверки.</td></tr>
+            <tr><td><b>B – значимая</b></td><td>Нарушение дисциплины, конфликт интересов, неэтичное поведение, злоупотребление статусом.</td><td>Назначается инспектор, проводится проверка с письменным заключением.</td></tr>
+            <tr><td><b>C – стандартная</b></td><td>Консультация, процедурный спор, неполные сведения, профилактическая информация.</td><td>Предварительная оценка, уточнение или разъяснение.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel gray">
+      <h2>Чек-лист дежурного инспектора</h2>
+      <div class="grid" style="grid-template-columns:repeat(2,minmax(0,1fr));">
+        <div class="card"><span><strong>Утро</strong>Проверить новые обращения, просрочки, доступы и срочные риски.</span></div>
+        <div class="card"><span><strong>Регистрация</strong>Присвоить номер, внести краткую тему, категорию, срок и ответственного.</span></div>
+        <div class="card"><span><strong>Коммуникация</strong>Не обсуждать материалы проверки в публичных каналах и личных переписках без необходимости.</span></div>
+        <div class="card"><span><strong>Вечер</strong>Обновить статусы, зафиксировать действия, подготовить доклад по срочным вопросам.</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><strong>Панель УСБ.</strong> Локальные функции работают в браузере и не передают данные на сервер.</footer>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
