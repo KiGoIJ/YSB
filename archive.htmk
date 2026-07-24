@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>УСБ | Архив и учет</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page">
+  <header class="official-head">
+    <div class="doc-number">№ 006–АРХ–усб</div>
+    <div class="org-block">
+      <img src="assets/img/emblem.png" alt="Эмблема">
+      <div class="org-title">Федеральная<br>служба безопасности<br>Российской Федерации<br>(ФСБ России)</div>
+      <div class="org-subtitle">Управление<br>по Ленинградской области<br>и по городу Санкт-Петербург</div>
+      <div class="org-address">191000, г. Санкт-Петербург, адрес: __________________</div>
+      <div class="org-dept">Управление собственной безопасности</div>
+    </div>
+  </header>
+  <nav class="top-nav">
+    <a href="index.html">Главная</a>
+    <a href="workflow.html">Рабочая панель</a>
+    <a href="documents.html">Документы</a>
+    <a href="appeal.html">Подать обращение</a>
+    <a href="regulation.html">Положение</a>
+    <a href="archive.html">Архив и учет</a>
+  </nav>
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Архив и учет</h1>
+        <p>Страница для быстрого доступа к журналам, реестрам и правилам хранения. Реальные закрытые материалы не должны храниться в публичном репозитории.</p>
+        <div class="badges"><span class="badge">Журналы</span><span class="badge">Архив</span><span class="badge">Доступы</span><span class="badge">Контроль</span></div>
+      </div>
+      <aside class="status-card">
+        <h2>Правило архива</h2>
+        <p>Закрытое дело передается в архив после утверждения заключения, уведомления в допустимом объеме и отметки о контроле исполнения.</p>
+      </aside>
+    </section>
+
+    <section class="notice danger">
+      <strong>Публичный репозиторий не является архивом проверок.</strong>
+      На GitHub Pages размещаются только пустые формы, инструкции и обезличенные материалы. Реальные дела, персональные данные и приложения к проверкам размещать нельзя.
+    </section>
+
+    <section class="panel">
+      <h2>Основные журналы</h2>
+      <div class="docs-grid">
+        <section class="doc-card"><span class="badge">XLSX</span><h3>Журнал обращений и жалоб</h3><p>Учет номера, категории, срока, исполнителя, статуса и контроля.</p><a class="btn primary" href="assets/docs/22_appeals_log.xlsx" download>Скачать</a></section>
+        <section class="doc-card"><span class="badge">XLSX</span><h3>Журнал приказов и распоряжений</h3><p>Регистрация управленческих документов и сроков исполнения.</p><a class="btn primary" href="assets/docs/23_orders_directives_log.xlsx" download>Скачать</a></section>
+        <section class="doc-card"><span class="badge">XLSX</span><h3>Журнал служебных проверок</h3><p>Контроль дел УСБ, оснований, итогов и мер реагирования.</p><a class="btn primary" href="assets/docs/24_service_checks_log.xlsx" download>Скачать</a></section>
+        <section class="doc-card"><span class="badge">XLSX</span><h3>Журнал личного приема</h3><p>Фиксация записей, тем обращений и итогов приема.</p><a class="btn primary" href="assets/docs/25_personal_reception_log.xlsx" download>Скачать</a></section>
+        <section class="doc-card"><span class="badge">XLSX</span><h3>Матрица доступов</h3><p>Учет ролей, каналов, допусков и прекращения доступа.</p><a class="btn primary" href="assets/docs/26_access_matrix.xlsx" download>Скачать</a></section>
+        <section class="doc-card"><span class="badge">DOCX</span><h3>Лист согласования доступа</h3><p>Форма для выдачи, изменения или прекращения доступа.</p><a class="btn primary" href="assets/docs/19_access_approval_sheet.docx" download>Скачать</a></section>
+      </div>
+    </section>
+
+    <section class="panel gray">
+      <h2>Статусы дела</h2>
+      <div class="table-wrap">
+        <table class="site-table">
+          <thead><tr><th>Статус</th><th>Назначение</th><th>Действие</th></tr></thead>
+          <tbody>
+            <tr><td>Новая</td><td>Обращение поступило, но еще не прошло первичную оценку.</td><td>Зарегистрировать и проверить полноту.</td></tr>
+            <tr><td>Принята</td><td>Обращение относится к компетенции УСБ.</td><td>Назначить категорию, срок и инспектора.</td></tr>
+            <tr><td>В работе</td><td>Идет сбор материалов и объяснений.</td><td>Вести карточку дела.</td></tr>
+            <tr><td>Ожидает сведений</td><td>Направлен служебный запрос или ожидается уточнение.</td><td>Контролировать срок ответа.</td></tr>
+            <tr><td>На согласовании</td><td>Проект заключения подготовлен.</td><td>Проверить полноту и утвердить вывод.</td></tr>
+            <tr><td>Закрыта</td><td>Решение принято, уведомление направлено.</td><td>Поставить контроль исполнения.</td></tr>
+            <tr><td>Архив</td><td>Контроль исполнен, дело передано на хранение.</td><td>Проверить доступ и место хранения.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><strong>Архив и учет.</strong> Для защищенного архива нужна закрытая инфраструктура, а не GitHub Pages.</footer>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
