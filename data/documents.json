@@ -1,0 +1,266 @@
+[
+  {
+    "title": "Реестр документов РУ ФСБ",
+    "file": "assets/docs/00_registry_ru_fsb.docx",
+    "type": "DOCX",
+    "category": "Реестр",
+    "description": "Сводный список документов комплекта.",
+    "size": 59668
+  },
+  {
+    "title": "Бланк документа РУ ФСБ",
+    "file": "assets/docs/01_blank_ru_fsb.docx",
+    "type": "DOCX",
+    "category": "Бланки",
+    "description": "Универсальный бланк для внутренних документов.",
+    "size": 57539
+  },
+  {
+    "title": "Приказ РУ",
+    "file": "assets/docs/02_order_ru.docx",
+    "type": "DOCX",
+    "category": "Приказы",
+    "description": "Формы управленческих решений РУ.",
+    "size": 57693
+  },
+  {
+    "title": "Распоряжение РУ",
+    "file": "assets/docs/03_directive_ru.docx",
+    "type": "DOCX",
+    "category": "Приказы",
+    "description": "Формы управленческих решений РУ.",
+    "size": 57584
+  },
+  {
+    "title": "Рапорт",
+    "file": "assets/docs/04_rapport.docx",
+    "type": "DOCX",
+    "category": "Служебные формы",
+    "description": "Формы для докладов, записок и внутренней переписки.",
+    "size": 57560
+  },
+  {
+    "title": "Служебная записка",
+    "file": "assets/docs/05_service_memo.docx",
+    "type": "DOCX",
+    "category": "Служебные формы",
+    "description": "Формы для докладов, записок и внутренней переписки.",
+    "size": 57594
+  },
+  {
+    "title": "Запрос материалов и сведений",
+    "file": "assets/docs/06_request_materials.docx",
+    "type": "DOCX",
+    "category": "Проверки",
+    "description": "Документы для запросов, объяснений, актов и бесед.",
+    "size": 57697
+  },
+  {
+    "title": "Ответ на служебный запрос",
+    "file": "assets/docs/07_response_to_request.docx",
+    "type": "DOCX",
+    "category": "Проверки",
+    "description": "Документы для запросов, объяснений, актов и бесед.",
+    "size": 57584
+  },
+  {
+    "title": "Акт внутренней проверки",
+    "file": "assets/docs/08_internal_check_act.docx",
+    "type": "DOCX",
+    "category": "Проверки",
+    "description": "Документы для запросов, объяснений, актов и бесед.",
+    "size": 57617
+  },
+  {
+    "title": "Объяснение сотрудника",
+    "file": "assets/docs/09_employee_explanation.docx",
+    "type": "DOCX",
+    "category": "Проверки",
+    "description": "Документы для запросов, объяснений, актов и бесед.",
+    "size": 57650
+  },
+  {
+    "title": "Протокол служебной беседы",
+    "file": "assets/docs/10_service_conversation_protocol.docx",
+    "type": "DOCX",
+    "category": "Проверки",
+    "description": "Документы для запросов, объяснений, актов и бесед.",
+    "size": 57632
+  },
+  {
+    "title": "Карточка дела УСБ",
+    "file": "assets/docs/11_usb_case_card.docx",
+    "type": "DOCX",
+    "category": "УСБ",
+    "description": "Основные документы дела УСБ.",
+    "size": 58362
+  },
+  {
+    "title": "Заключение служебной проверки",
+    "file": "assets/docs/12_service_check_conclusion.docx",
+    "type": "DOCX",
+    "category": "УСБ",
+    "description": "Основные документы дела УСБ.",
+    "size": 57754
+  },
+  {
+    "title": "Представление об устранении нарушений",
+    "file": "assets/docs/13_violation_remedy_submission.docx",
+    "type": "DOCX",
+    "category": "УСБ",
+    "description": "Основные документы дела УСБ.",
+    "size": 57676
+  },
+  {
+    "title": "Уведомление заявителю",
+    "file": "assets/docs/14_applicant_notice.docx",
+    "type": "DOCX",
+    "category": "УСБ",
+    "description": "Основные документы дела УСБ.",
+    "size": 57771
+  },
+  {
+    "title": "План работы подразделения",
+    "file": "assets/docs/15_work_plan.docx",
+    "type": "DOCX",
+    "category": "Отчетность",
+    "description": "Планирование и отчетные формы.",
+    "size": 58017
+  },
+  {
+    "title": "Недельный отчет",
+    "file": "assets/docs/16_weekly_report.docx",
+    "type": "DOCX",
+    "category": "Отчетность",
+    "description": "Планирование и отчетные формы.",
+    "size": 57985
+  },
+  {
+    "title": "Ежемесячная аналитическая справка",
+    "file": "assets/docs/17_monthly_analytics.docx",
+    "type": "DOCX",
+    "category": "Отчетность",
+    "description": "Планирование и отчетные формы.",
+    "size": 57677
+  },
+  {
+    "title": "Обязательство о конфиденциальности",
+    "file": "assets/docs/18_confidentiality_obligation.docx",
+    "type": "DOCX",
+    "category": "Доступ",
+    "description": "Конфиденциальность и согласование доступов.",
+    "size": 57924
+  },
+  {
+    "title": "Лист согласования доступа",
+    "file": "assets/docs/19_access_approval_sheet.docx",
+    "type": "DOCX",
+    "category": "Доступ",
+    "description": "Конфиденциальность и согласование доступов.",
+    "size": 58135
+  },
+  {
+    "title": "Анкета кандидата",
+    "file": "assets/docs/20_candidate_form.docx",
+    "type": "DOCX",
+    "category": "Кадры",
+    "description": "Кандидаты, стажировка и аттестация.",
+    "size": 58199
+  },
+  {
+    "title": "Лист стажировки и аттестации",
+    "file": "assets/docs/21_internship_attestation.docx",
+    "type": "DOCX",
+    "category": "Кадры",
+    "description": "Кандидаты, стажировка и аттестация.",
+    "size": 58356
+  },
+  {
+    "title": "Журнал обращений и жалоб",
+    "file": "assets/docs/22_appeals_log.xlsx",
+    "type": "XLSX",
+    "category": "Журналы",
+    "description": "Excel-журналы учета и контроля.",
+    "size": 26878
+  },
+  {
+    "title": "Журнал приказов и распоряжений",
+    "file": "assets/docs/23_orders_directives_log.xlsx",
+    "type": "XLSX",
+    "category": "Приказы",
+    "description": "Формы управленческих решений РУ.",
+    "size": 26606
+  },
+  {
+    "title": "Журнал служебных проверок",
+    "file": "assets/docs/24_service_checks_log.xlsx",
+    "type": "XLSX",
+    "category": "Журналы",
+    "description": "Excel-журналы учета и контроля.",
+    "size": 26756
+  },
+  {
+    "title": "Журнал личного приема",
+    "file": "assets/docs/25_personal_reception_log.xlsx",
+    "type": "XLSX",
+    "category": "Журналы",
+    "description": "Excel-журналы учета и контроля.",
+    "size": 26508
+  },
+  {
+    "title": "Матрица доступов",
+    "file": "assets/docs/26_access_matrix.xlsx",
+    "type": "XLSX",
+    "category": "Журналы",
+    "description": "Excel-журналы учета и контроля.",
+    "size": 26468
+  },
+  {
+    "title": "Инструкция по документообороту РУ",
+    "file": "assets/docs/27_document_flow_instruction.docx",
+    "type": "DOCX",
+    "category": "Инструкции",
+    "description": "Памятки и правила работы.",
+    "size": 58003
+  },
+  {
+    "title": "Памятка сотруднику РО",
+    "file": "assets/docs/28_employee_memo.docx",
+    "type": "DOCX",
+    "category": "Инструкции",
+    "description": "Памятки и правила работы.",
+    "size": 57943
+  },
+  {
+    "title": "Положение УСБ РУ ФСБ ЛО СПБ ТНР13 черное 1раздел 1страница",
+    "file": "assets/docs/29_regulation_usb_ru_fsb_lo_spb.docx",
+    "type": "DOCX",
+    "category": "Положение",
+    "description": "Актуальная редакция положения УСБ.",
+    "size": 49119
+  },
+  {
+    "title": "Положение УСБ РУ ФСБ ЛО СПБ ТНР13 черное 1раздел 1страница",
+    "file": "assets/docs/29_regulation_usb_ru_fsb_lo_spb.md",
+    "type": "MD",
+    "category": "Положение",
+    "description": "Актуальная редакция положения УСБ.",
+    "size": 34112
+  },
+  {
+    "title": "README Как использовать комплект",
+    "file": "assets/docs/readme_docs.md",
+    "type": "MD",
+    "category": "Инструкции",
+    "description": "Памятки и правила работы.",
+    "size": 2215
+  },
+  {
+    "title": "Положение УСБ РУ ФСБ ЛО СПБ ТНР13 черное 1раздел 1страница",
+    "file": "assets/docs/regulation_usb_ru_fsb_lo_spb.docx",
+    "type": "DOCX",
+    "category": "Положение",
+    "description": "Актуальная редакция положения УСБ.",
+    "size": 49119
+  }
+]
