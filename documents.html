@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>УСБ | Документы</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page">
+  <header class="official-head">
+    <div class="doc-number">№ 003–РД–усб</div>
+    <div class="org-block">
+      <img src="assets/img/emblem.png" alt="Эмблема">
+      <div class="org-title">Федеральная<br>служба безопасности<br>Российской Федерации<br>(ФСБ России)</div>
+      <div class="org-subtitle">Управление<br>по Ленинградской области<br>и по городу Санкт-Петербург</div>
+      <div class="org-address">191000, г. Санкт-Петербург, адрес: __________________</div>
+      <div class="org-dept">Управление собственной безопасности</div>
+    </div>
+  </header>
+  <nav class="top-nav">
+    <a href="index.html">Главная</a>
+    <a href="workflow.html">Рабочая панель</a>
+    <a href="documents.html">Документы</a>
+    <a href="appeal.html">Подать обращение</a>
+    <a href="regulation.html">Положение</a>
+    <a href="archive.html">Архив и учет</a>
+  </nav>
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Реестр документов</h1>
+        <p>Единая витрина DOCX/XLSX-шаблонов. Все документы доступны отдельными файлами без ZIP-архива.</p>
+        <div class="badges"><span class="badge">Найдено: <b id="docsCount">0</b></span><span class="badge">DOCX</span><span class="badge">XLSX</span><span class="badge">MD</span></div>
+      </div>
+      <aside class="status-card">
+        <h2>Полный комплект</h2>
+        <p>Скачайте весь набор документов одним архивом.</p>
+        <a class="btn primary" href="download-files.html">Открыть список файлов</a>
+      </aside>
+    </section>
+
+    <section class="notice ok">
+      <strong>Шапка документов.</strong>
+      В DOCX-шаблонах шапка сделана как обычный блок в теле документа: не колонтитул, не таблица, без разделительных полос.
+    </section>
+
+    <section class="toolbar">
+      <input class="input" id="docSearch" placeholder="Поиск по названию, категории или описанию">
+      <select id="docCategory" aria-label="Категория документов"><option>Все</option></select>
+      <select id="docType" aria-label="Тип файла">
+        <option>Все</option>
+        <option>DOCX</option>
+        <option>XLSX</option>
+        <option>MD</option>
+        <option>MD</option>
+      </select>
+    </section>
+
+    <section id="docsContainer" class="docs-grid" aria-live="polite"></section>
+  </main>
+  <footer class="footer"><strong>Реестр документов.</strong> Для публикации на GitHub Pages файлы лежат в папке <code>assets/docs</code>.</footer>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
