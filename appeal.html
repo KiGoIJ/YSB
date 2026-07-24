@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>УСБ | Подать обращение</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="page">
+  <header class="official-head">
+    <div class="doc-number">№ 004–ОБР–усб</div>
+    <div class="org-block">
+      <img src="assets/img/emblem.png" alt="Эмблема">
+      <div class="org-title">Федеральная<br>служба безопасности<br>Российской Федерации<br>(ФСБ России)</div>
+      <div class="org-subtitle">Управление<br>по Ленинградской области<br>и по городу Санкт-Петербург</div>
+      <div class="org-address">191000, г. Санкт-Петербург, адрес: __________________</div>
+      <div class="org-dept">Управление собственной безопасности</div>
+    </div>
+  </header>
+  <nav class="top-nav">
+    <a href="index.html">Главная</a>
+    <a href="workflow.html">Рабочая панель</a>
+    <a href="documents.html">Документы</a>
+    <a href="appeal.html">Подать обращение</a>
+    <a href="regulation.html">Положение</a>
+    <a href="archive.html">Архив и учет</a>
+  </nav>
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Форма обращения</h1>
+        <p>Заполните поля, получите готовый текст для передачи в УСБ. Данные не отправляются на сервер и остаются только в вашем браузере.</p>
+        <div class="badges"><span class="badge ok">Локально</span><span class="badge">TXT</span><span class="badge">Копирование</span><span class="badge">CSV-журнал</span></div>
+      </div>
+      <aside class="status-card">
+        <h2>Правило подачи</h2>
+        <p>Не публикуйте доказательства, персональные данные и материалы проверок в общих каналах. Используйте закрытый канал или личный прием.</p>
+      </aside>
+    </section>
+
+    <section class="notice danger">
+      <strong>Не вводите реальные закрытые сведения на публичной странице.</strong>
+      Эта форма предназначена для подготовки текста. Сайт на GitHub Pages не имеет защищенной серверной части.
+    </section>
+
+    <section class="panel">
+      <h2>Заполнить обращение</h2>
+      <form id="appealForm" class="form-grid" autocomplete="off">
+        <label><span>Регистрационный номер</span><input class="input" name="caseNumber" placeholder="УСБ–26–0001"></label>
+        <label><span>Категория</span><select name="category"><option>А – критическая</option><option>B – значимая</option><option selected>C – стандартная</option></select></label>
+        <label><span>Заявитель</span><input class="input" name="applicant" placeholder="ФИО / ник"></label>
+        <label><span>Подразделение / роль</span><input class="input" name="unit" placeholder="Подразделение, должность или роль"></label>
+        <label><span>Способ связи</span><input class="input" name="contact" placeholder="Discord, почта, иной контакт"></label>
+        <label><span>На кого / по какому вопросу</span><input class="input" name="target" placeholder="ФИО / ник / подразделение / процедура"></label>
+        <label class="full"><span>Дата, время и место события</span><input class="input" name="eventTime" placeholder="Когда и где произошло"></label>
+        <label class="full"><span>Суть обращения</span><textarea name="description" placeholder="Кратко и по фактам: что произошло, кто участвовал, какие правила нарушены"></textarea></label>
+        <label class="full"><span>Доказательства / материалы</span><textarea name="evidence" placeholder="Скриншоты, ссылки, документы, сообщения. Не публиковать в общих каналах."></textarea></label>
+        <label class="full"><span>Свидетели</span><textarea name="witnesses" placeholder="Кто может подтвердить обстоятельства"></textarea></label>
+        <label class="full"><span>Просьба заявителя</span><textarea name="request" placeholder="Проверить, разъяснить, принять меры, обеспечить конфиденциальность"></textarea></label>
+        <label class="full"><input type="checkbox" name="confidential"> Прошу обеспечить конфиденциальность заявителя</label>
+      </form>
+      <div class="doc-actions" style="margin-top:16px;">
+        <button class="btn primary" id="generateBtn" type="button">Сформировать</button>
+        <button class="btn" id="copyBtn" type="button">Копировать</button>
+        <button class="btn" id="downloadTxtBtn" type="button">Скачать TXT</button>
+        <button class="btn" id="saveLocalBtn" type="button">Сохранить локально</button>
+      </div>
+    </section>
+
+    <section class="panel gray">
+      <h2>Сформированный текст</h2>
+      <div id="generatedText" class="generated"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Локальный журнал обращений: <span id="localAppealsCount">0</span></h2>
+      <p>Журнал хранится только в localStorage текущего браузера. Он не является защищенной базой данных.</p>
+      <div class="doc-actions" style="margin-bottom:12px;">
+        <button class="btn" id="exportCsvBtn" type="button">Экспорт CSV</button>
+        <button class="btn danger" id="clearLocalBtn" type="button">Очистить локально</button>
+      </div>
+      <div class="table-wrap">
+        <table class="site-table">
+          <thead><tr><th>№</th><th>Рег. номер</th><th>Дата</th><th>Категория</th><th>Заявитель</th><th>Объект</th><th>Действие</th></tr></thead>
+          <tbody id="localAppealsBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><strong>Форма обращения.</strong> Для реального закрытого приема обращений потребуется серверная часть и контроль доступа.</footer>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
